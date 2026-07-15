@@ -35,7 +35,7 @@ revealTargets.forEach(el => observer.observe(el));
 // Replace these files in the images/ folder with your real outfit photos.
 // If a file isn't found, a placeholder tile shows instead so the layout never breaks.
 const galleryGrid = document.getElementById('galleryGrid');
-const TOTAL_LOOKS = 8;
+const TOTAL_LOOKS = 4;
 const LOOK_NAMES = {
   1: 'Denim corset & wide-leg trousers',
   2: 'Tribal print jumpsuit',
